@@ -40,3 +40,23 @@
     width: 600px;
     height: 450px;
 }
+
+.languages-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.code-icon {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
