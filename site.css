@@ -42,21 +42,41 @@
 }
 
 .languages-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-top: 40px;
 }
 
-.languages {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#code-icon-java {
+    width: 300px;
+    height: 300px;
 }
 
-.code-icon {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: 100px;
+#code-icon-js{
+    width: 300px;
+    height: 300px;
+}
+
+#code-icon-python{
+    width: 300px;
+    height: 300px;
+}
+
+#code-icon-html{
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+#code-icon-css{
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+#code-icon-react{
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
 }
