@@ -98,13 +98,29 @@
     transition: .5s;
   }
 
+  #icon-fb{
+    color: #4267B2;
+  }
+
+  #icon-gh{
+    color: #000000;
+  }
+
+  #icon-ig{
+    color: #E1306C;
+  }
+
+  #icon-li{
+    color: #2867B2;
+  }
+
 
   #fb-icon:before{
     background: #4267B2;
   }
 
-  #twitter-icon:before{
-    background: #1DA1F2;
+  #gh-icon:before{
+    background: #000000;
   }
 
   #instagram-icon:before{
