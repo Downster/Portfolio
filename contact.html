@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script>
 </head>
 
 <body>
@@ -48,6 +50,7 @@
             </div>
             </nav>
             <div class="form-container">
+                <form method="POST" class="contact-form"></form>
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" id="floatingInput" placeholder="John Johnson">
                     <label for="floatingInput">Full Name</label>
@@ -62,8 +65,9 @@
                 </div>
             </div>
             <div class="d-grid gap-2 col-3 mx-auto">
-                <button class="btn btn-primary" type="button">Reach Out!</button>
+                <button class="btn btn-primary" type="button" onclick="sendEmail()">Reach Out!</button>
             </div>
+            </form>
             <div class="icons-containter">
                 <ul class="social-icons">
                     <li id="fb-icon"><a id="icon-fb" href="http://www.facebook.com"><i
@@ -80,3 +84,4 @@
         </div>
     </div>
     </div>
+</body>
